@@ -274,3 +274,37 @@
 	<_mingw.h>
 	<stddef.h>
 
+1525036652 source:c:\users\usuario\documents\projetoscodeblocks\pcatcc\main.cpp
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+	<gl/gl.h>
+	<windows.h>
+	<vector>
+	<Ponto.h>
+	<Pca.h>
+
+1524965881 c:\users\usuario\documents\projetoscodeblocks\pcatcc\include\ponto.h
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1525028672 c:\users\usuario\documents\projetoscodeblocks\pcatcc\include\pca.h
+	<vector>
+	<Ponto.h>
+
+1525034387 source:c:\users\usuario\documents\projetoscodeblocks\pcatcc\src\pca.cpp
+	"Pca.h"
+	<vector>
+	<math.h>
+	<Ponto.h>
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+
+1525027118 source:c:\users\usuario\documents\projetoscodeblocks\pcatcc\src\ponto.cpp
+	"Ponto.h"
+	"math.h"
+	<stdio.h>
+

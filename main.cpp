@@ -210,13 +210,15 @@ void ReadFile(std::vector<Ponto> *pontos, int *np){
 
     fscanf(file, "%i",np);
     printf("\n numero de pontos: %i",*np);
+    //system("pause");
     char letra;
     float x,y,z;
     int kl = 1;
-    while ((fscanf(file,"%c %f %f %f", &letra, &x, &y, &z))!= EOF) {
+    while ((fscanf(file,"\n%c %f %f %f", &letra, &x, &y, &z))!= EOF) {
         pontos->push_back(Ponto(x,y,z));
         printf("\n %f %f %f",x,y,z);
         printf("\ncontador:  %i",kl);
+        system("pause");
         kl++;
         //if (kl%100 == 0) system("PAUSE");
     }

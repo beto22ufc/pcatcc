@@ -57,9 +57,14 @@ Pca::calculaMatrizCovariancia(){
             //printf("\nTAMANHO DO VECTOR:  %i \n",this->vetorPontos->size());
             //system("pause");
             auxiliar = 0.0;
+            printf("pontoMedio \n");
+    printf("[ %f,",pontoMedio.coor[0]);
+    printf("  %f,",pontoMedio.coor[1]);
+    printf("  %f ]",pontoMedio.coor[2]);
+    system("pause");
             for (unsigned int k=0;k<this->vetorPontos->size();k++) {
                 printf("\nvalor do vetor %i %f \n\n",k,this->vetorPontos->at(k).coor[i]);
-                auxiliar = auxiliar + ((this->vetorPontos->at(k).coor[i] - this->pontoMedio.coor[i])*(this->vetorPontos->at(k).coor[j] - this->pontoMedio.coor[j]));
+                auxiliar += ((this->vetorPontos->at(k).coor[i] - this->pontoMedio.coor[i]) * (this->vetorPontos->at(k).coor[j] - this->pontoMedio.coor[j]));
                 //printf("valor%f \n",auxiliar);
 
             }
